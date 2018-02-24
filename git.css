@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* div {
+    border: 1px dashed black;
+} */
+p {
+    font-size: 14px;
+}
+.container {
+    width: 860px;
+    background-color: #dddfd3;
+    padding: 10px;
+    /* font-family: arial; */
+}
+
+.header, .footer {
+    width: 100%;
+    background-color: #38b0ad;
+    line-height: 60px;
+}
+
+.header {
+    display: inline-block;
+}
+.header h1 {
+    margin-left: 70px;
+}
+.header-logo img {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.header a {
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+.header-logo {
+    /* width: 250px; */
+    display: inline-block;
+    position: relative;
+}
+.header-links {
+    display: inline-block;
+    text-align: right;
+    margin-left: 120px;
+}
+.main-content {
+    width: 100%;
+    background: #fbe690;
+    /* margin: 10px; */
+    display: inline-block;
+}
+.what-is-git {
+    display: inline-block;
+    width: 225px;
+    height: 525px;
+    color: #bfc7bd;
+    background-color: #153f43;
+    vertical-align: top;
+    margin: 15px 10px 20px 20px;
+}
+.what-is-git h2 {
+    margin: 15px 10px;
+}
+.what-is-git p {
+    margin: 0 20px;
+}
+
+.git-commands {
+    display: inline-block;
+    width: 570px;
+    vertical-align: top;
+    margin: 0px 0px 10px 5px;
+}
+.block {
+    color: #bfc7bd;
+    background-color: #153f43;
+    display: inline-block;
+    vertical-align: top;
+    height: 155px;
+    margin: 15px 15px;
+}
+.block h4 {
+    margin: 8px 8px;
+}
+.block p {
+    margin: 0 20px;
+}
+.block-small {
+    width: 155px;
+    
+}
+.block-medium {
+    width: 250px;
+   
+}
+.block-large {
+    width: 535px;
+  
+}
+
+.footer {
+    text-align: center;
+}
